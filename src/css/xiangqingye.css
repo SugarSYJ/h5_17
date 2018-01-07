@@ -1,0 +1,119 @@
+.warp { font-size: 12px; }
+
+.warp .breadCrumbs { width: 100%; }
+
+.warp .breadCrumbs .container a { font-size: 12px; color: #666; line-height: 50px; }
+
+.warp .content .container .buycar { padding: 20px; }
+
+.warp .content .container .buycar .buycar_l { width: 402px; }
+
+.warp .content .container .buycar .buycar_l .big img { width: 400px; height: 400px; }
+
+.warp .content .container .buycar .buycar_l .small img { width: 68px; height: 68px; padding: 2px; border: 1px solid #f4f4f4; float: left; margin-right: 12px; margin-top: 5px; }
+
+.warp .content .container .buycar .buycar_l .small .active { border: 1px solid #F450A2; }
+
+.warp .content .container .buycar .buycar_r { width: 650px; padding-left: 50px; }
+
+.warp .content .container .buycar .buycar_r .brand { margin-bottom: 10px; font-size: 18px; color: #222; padding-right: 40px; }
+
+.warp .content .container .buycar .buycar_r .brand .baoyou { color: #ff3b93; }
+
+.warp .content .container .buycar .buycar_r .brand a { color: #666; }
+
+.warp .content .container .buycar .buycar_r .pi_price_box { background: #fff9fd; padding: 10px 15px; margin-top: 10px; }
+
+.warp .content .container .buycar .buycar_r .pi_price_box .tit_txt { font-size: 16px; color: #666; margin-right: 30px; }
+
+.warp .content .container .buycar .buycar_r .pi_price_box .pbox_price { font-size: 22px; color: #f43499; }
+
+.warp .content .container .buycar .buycar_r .pi_price_box .pbox_market { font-size: 14px; padding: 0 20px 0 10px; color: gray; text-decoration: line-through; }
+
+.warp .content .container .buycar .buycar_r .color { overflow: hidden; padding-top: 12px; vertical-align: middle; }
+
+.warp .content .container .buycar .buycar_r .color .color_name { font-size: 16px; padding-left: 15px; margin-right: 36px; }
+
+.warp .content .container .buycar .buycar_r .color .color_list { width: 47px; height: 47px; padding: 1px; border: 1px solid #b5b5b5; }
+
+.warp .content .container .buycar .buycar_r .color .color_list img { width: 42px; height: 42px; }
+
+.warp .content .container .buycar .buycar_r .J_num_select { padding: 16px 1px; margin: -1px 0; }
+
+.warp .content .container .buycar .buycar_r .J_num_select .num_name { font-size: 16px; padding-left: 15px; margin-right: 36px; }
+
+.warp .content .container .buycar .buycar_r .J_num_select .num_box { height: 28px; border: 1px solid #b3b3b3; text-align: center; }
+
+.warp .content .container .buycar .buycar_r .J_num_select .num_box span { display: block; width: 24px; line-height: 26px; float: left; background: #ddd; }
+
+.warp .content .container .buycar .buycar_r .J_num_select .num_box .c { background: #fff; width: 28px; }
+
+.warp .content .container .buycar .buycar_r .review_f .tit_txt { font-size: 16px; padding-left: 15px; margin-right: 36px; }
+
+.warp .content .container .buycar .buycar_r .review_f .star2 { color: red; font-size: 18px; margin-right: 15px; }
+
+.warp .content .container .buycar .buycar_r .review_f span { line-height: 27px; }
+
+.warp .content .container .buycar .buycar_r .review_f span i { color: #ff3b93; }
+
+.warp .content .container .buycar .buycar_r .button { margin: 23px 0; }
+
+.warp .content .container .buycar .buycar_r .button .btn { display: block; width: 225px; line-height: 55px; font-size: 18px; text-align: center; color: #fff; background-color: #F450A2; }
+
+.warp .content .container .buycar .buycar_r .button .btn1 { display: block; width: 100px; height: 55px; border: 1px solid #e2e2e2; margin-left: 14px; }
+
+.warp .content .container .buycar .buycar_r .button .btn1 i { display: block; line-height: 18px; font-size: 30px; color: #ec1750; margin-top: 8px; text-align: center; }
+
+.warp .content .container .buycar .buycar_r .button .btn1 span { display: block; text-align: center; }
+
+.warp .content .container .buycar .buycar_r .other { padding: 3px 0 15px; }
+
+.warp .content .container .buycar .buycar_r .other .other_name { font-size: 12px; width: 46px; text-align: left; color: gray; line-height: 25px; }
+
+.warp .content .container .buycar .buycar_r .other .other_box { height: 25px; line-height: 25px; text-align: right; font-size: 12px; color: gray; }
+
+.warp .content .container .buycar .buycar_r ul li { padding-left: 10px; margin-right: 15px; float: left; }
+
+.warp .detail .container .introduction { padding-top: 20px; }
+
+.warp .detail .container .introduction .left { width: 220px; margin-right: 18px; }
+
+.warp .detail .container .introduction .left .pop_license { margin-bottom: 20px; border: 1px solid #ebebeb; }
+
+.warp .detail .container .introduction .left .pop_license .pubtitle { border-bottom: 1px solid #ebebeb; font-size: 20px; color: #fc62af; height: 40px; line-height: 25px; padding-left: 18px; padding-top: 5px; }
+
+.warp .detail .container .introduction .left .pop_license .pubcon { line-height: 24px; padding-left: 18px; }
+
+.warp .detail .container .introduction .left .pop_license .pubcon .pop_name { padding-top: 10px; }
+
+.warp .detail .container .introduction .left .pop_license .pubcon label { color: #999; float: left; width: 70px; }
+
+.warp .detail .container .introduction .left .pop_license .pubcon a { display: block; width: 20px; height: 22px; margin: 0 6px 15px; float: left; }
+
+.warp .detail .container .introduction .left .pop_license .pubcon a img { width: 100%; }
+
+.warp .detail .container .introduction .left .left_block { border: 1px solid #ebebeb; }
+
+.warp .detail .container .introduction .left .left_block .pubtitle { border-bottom: 1px solid #ebebeb; font-size: 20px; color: #fc62af; height: 40px; line-height: 25px; padding-left: 18px; padding-top: 5px; }
+
+.warp .detail .container .introduction .right { width: 860px; }
+
+.warp .detail .container .introduction .right .moduleFixed { line-height: 45px; height: 45px; background: #ff3b93; }
+
+.warp .detail .container .introduction .right .moduleFixed ul { overflow: hidden; }
+
+.warp .detail .container .introduction .right .moduleFixed ul li { float: left; padding: 0 20px; font-size: 14px; cursor: pointer; color: #fff; }
+
+.warp .detail .container .introduction .right .moduleFixed ul li:hover { background: #ec0871; }
+
+.warp .detail .container .introduction .right .area { border: 1px solid #ebebeb; padding: 10px; }
+
+.warp .detail .container .introduction .right .area ul { overflow: hidden; }
+
+.warp .detail .container .introduction .right .area ul li { padding: 6px 5px 6px 0; height: 30px; color: #5b5b5b; line-height: 20px; float: left; width: 350px; overflow: hidden; }
+
+.warp .detail .container .introduction .right .area ul li b { float: left; width: 80px; text-align: left; padding-right: 5px; }
+
+.warp .detail .container .introduction .right .area .datacon .dtit { width: 750px; height: 46px; }
+
+.warp .detail .container .introduction .right .area .datacon img { width: 750px; }

@@ -1,0 +1,136 @@
+.container{
+    width: 965px;
+    height: 695px;
+    padding-top: 75px;
+    background: url('../images/zhuce.png') no-repeat left 112px;
+    margin-top: 20px;
+    position:relative;
+    .logo{
+        display:block;
+        width: 110px;
+        height: 100px;
+        margin: 20px 0 0  10px;
+    }
+    .erweima{
+        position: absolute;
+        width: 88px;
+        height: 88px;
+        left: 0;
+        top: 500px;
+    }
+    .loginBord{
+        position: absolute;
+        left: 610px;
+        top: 110px;
+        width: 344px;
+        box-shadow: 0 0 4px rgba(0,0,0,.075);
+        padding: 0 20px 20px 20px;
+        .loginTit{
+            color: #E31256;
+            height: 60px;
+            line-height: 60px;
+            margin-bottom: 13px;
+            .left{
+                font-size:20px;
+                color: #f450a2;
+            }
+            .right{
+                font-size:12px;
+                i{
+                    color: #f450a2;
+                }
+                a{
+                    color:#666;
+                }
+            }
+        }
+        form{
+            font-size:12px;
+            .inputWrap,.inputWord,.Word{
+                width: 305px;
+                height: 39px;
+                background-color: #FFF;
+                border: 1px solid #CFCFCF;
+                box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                .user-icon{
+                    display: block;
+                    width: 38px;
+                    height: 22px;
+                    margin-top: 6px;
+                    background:url('../images/sign.png') no-repeat -37px -10px;
+                    float:left;
+                } 
+                .num,.password,.passWord{
+                    width: 225px;
+                    height: 37px;
+                    border:0 none;
+                    outline: 0 none;
+                }
+            }
+            .verityGroup{
+                width: 305px;
+                height: 39px;
+                text-align:center;
+                line-height: 40px;
+                border: 1px solid #CFCFCF;
+                box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                margin: 18px 0;
+            }
+            .inputGroup{
+                width: 305px;
+                height: 39px;
+                .code{
+                    width: 150px;
+                    height: 39px;
+                    vertical-align: 0;
+                    outline: 0 none;
+                    border: 1px solid #CFCFCF;
+                    box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                }
+                .huoqu{
+                    width: 150px;
+                    height: 39px;
+                    border: 1px solid #CFCFCF;
+                    box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                }
+            }
+            .inputWord,.Word{
+                .user-icon{
+                    background-position: -37px -50px;
+                }
+            }
+            .inputWord{
+                margin: 18px 0;
+            }
+            .ceckboxmy{
+                width: 304px;
+                height: 19px;
+                margin: 26px 0;
+                label{
+                    color:#a9a9a9;
+                }
+                a{
+                    color: #f450a2;
+                }
+            }
+            .btnCheck{
+                width: 305px;
+                height: 50px;
+                color:#fff;
+                font-size:20px;
+                font-weight:bold;
+                padding: 4px 24px 7px;
+                background-color: #F450A2;
+                border-radius: 2px;
+                border:0 none;
+            }
+        }
+    }
+}
+.foot{
+    font-size:12px;
+    line-height: 22px;
+    color:#ccc;
+    padding: 30px;
+    text-align:center;
+}

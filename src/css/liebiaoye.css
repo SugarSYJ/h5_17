@@ -1,0 +1,61 @@
+.Nmain { font-size: 12px; background: #f2f2f0; padding: 20px 20px 0; }
+
+.Nmain .container .screening { width: 1072px; height: 163px; color: #666; padding: 0 14px; background: #fff; }
+
+.Nmain .container .screening .selector { line-height: 24px; overflow: hidden; padding: 8px 0; position: relative; border-bottom: 1px dashed #ececec; }
+
+.Nmain .container .screening .selector .key { float: left; width: 87px; padding-right: 14px; text-align: right; color: #999; }
+
+.Nmain .container .screening .selector .contenter { float: left; width: 955px; height: 24px; line-height: 24px; padding-right: 60px; overflow: hidden; }
+
+.Nmain .container .screening .selector .contenter .smore { width: 50px; height: 24px; line-height: 24px; position: absolute; right: 0; }
+
+.Nmain .container .screening .selector .contenter .kcon { float: left; margin-right: 5px; padding: 0 20px 0 10px; color: #222; }
+
+.Nmain .container .screening .selector .contenter .kcon a { display: block; width: 155px; float: left; margin-right: 5px; padding: 0 10px 0 10px; color: #222; }
+
+.Nmain .container .screening .selector .contenter .kcon1 a { width: 57px; }
+
+.Nmain .container .screening .selector .contenter .kcon2 a { width: 73px; padding: 0 0 0 10px; }
+
+.Nmain .container .reputation { padding-top: 10px; }
+
+.Nmain .container .reputation .bmtitle { height: 44px; width: 1074px; padding: 0 19px 0 0; line-height: 33px; font-size: 14px; background: #fff; }
+
+.Nmain .container .reputation .bmtitle .fl span { display: block; height: 44px; line-height: 44px; padding: 0 25px; border-right: 1px solid #ededed; background: #fff; margin-right: 0; float: left; overflow: hidden; }
+
+.Nmain .container .reputation .bmtitle .fl span .inner input { width: 52px; height: 23px; outline: none; padding: 0 4px; border: 1px solid #B1B1B1; }
+
+.Nmain .container .reputation .bmtitle .fl span .btn { cursor: pointer; background-color: #F84D9C; color: #fff; height: 23px; width: 50px; border-radius: 2px; -webkit-border-radius: 2px; border: none; margin-left: 5px; }
+
+.Nmain .container .reputation .bmtitle .fl label { width: 141px; height: 44px; line-height: 44px; border: none; background: #fff; margin-left: 35px; float: left; }
+
+.Nmain .container .reputation .bmtitle .fl label input { margin-right: 10px; }
+
+.Nmain .container .reputation .bmtitle .fr { width: 120px; height: 44px; line-height: 44px; }
+
+.Nmain .container .goodslist ul { overflow: hidden; margin-top: 14px; }
+
+.Nmain .container .goodslist ul li { margin: 0 10px 14px 0; float: left; background: #fff; }
+
+.Nmain .container .goodslist ul li img { width: 265px; height: 265px; }
+
+.Nmain .container .goodslist ul li .bmfo { width: 265px; padding: 6px 10px 0 10px; }
+
+.Nmain .container .goodslist ul li .bmfo .price { height: 30px; }
+
+.Nmain .container .goodslist ul li .bmfo .price .new { font-size: 20px; font-weight: bold; color: #f450a2; line-height: 30px; float: left; }
+
+.Nmain .container .goodslist ul li .bmfo .price .old { margin: 9px 0 0 0; color: #888; text-decoration: line-through; float: right; }
+
+.Nmain .container .goodslist ul li .bmfo .tit { line-height: 22px; height: 22px; font-size: 14px; color: #666; margin-top: 5px; overflow: hidden; }
+
+.Nmain .container .goodslist ul li .bmfo .desc { color: #fa4b9b; margin-top: 8px; margin-bottom: 20px; }
+
+.Nmain .container .goodslist ul li .bmfo .desc span { color: #fff; background: #fa4b9b; padding: 0 2px 2px 2px; margin-right: 7px; }
+
+.Nmain .container .page { margin-bottom: 8px; text-align: center; }
+
+.Nmain .container .page span { display: inline-block; margin: 5px; width: 40px; line-height: 1.8; text-align: center; background-color: #fff; color: #666; }
+
+.Nmain .container .page span.active { background-color: #f450a2; color: #fff; }

@@ -1,0 +1,75 @@
+body { background: #f9f9f9; }
+
+.Nbanner { position: relative; width: 100%; height: 480px; overflow: hidden; }
+
+.Nbanner ul { position: absolute; top: 0; left: 0; }
+
+.Nbanner ul li { float: left; width: 100%; height: 480px; }
+
+.Nbanner ul li img { display: block; }
+
+.Nbanner .prev, .Nbanner .next { position: absolute; left: 0; top: 50%; transform: translate(0, -50%); padding: 10px 5px; width: 30px; height: 50px; line-height: 50px; background-color: rgba(0, 0, 0, 0.3); text-align: center; color: #fff; }
+
+.Nbanner .next { left: auto; right: 0; }
+
+.Nmain .container .Nmain_brand { width: 860px; height: 105px; margin: 10px 0 0 240px; background: #fff; }
+
+.Nmain .container .Nmain_brand h3 { width: 110px; line-height: 105px; font-size: 14px; color: #444; padding: 0 27px; float: left; }
+
+.Nmain .container .Nmain_brand .brands { width: 730px; height: 77px; margin-top: 12px; float: left; }
+
+.Nmain .container .Nmain_brand .brands a { display: block; width: 94px; height: 72px; float: left; padding: 0 55px; }
+
+.Nmain .container .Nmain_brand .brands a img { display: block; width: 94px; }
+
+.Nmain .container .tuijian h3 { font-size: 24px; color: #222; font-weight: bold; margin: 25px 0 20px 0; }
+
+.Nmain .container .tuijian h3 span { font-size: 18px; color: #999; font-weight: 100; vertical-align: -1px; margin-left: 18px; }
+
+.Nmain .container .tuijian .tuijian_goods ul { width: 100%; height: 681px; }
+
+.Nmain .container .tuijian .tuijian_goods ul li { width: 219px; height: 337px; border: 1px solid #e5e5e5; margin-top: -1px; margin-right: -1px; background: #fff; float: left; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .gds_img { width: 219px; height: 219px; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim { padding: 15px; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim .tit { white-space: nowrap; text-overflow: ellipsis; font-size: 12px; color: #222; font-weight: bold; overflow: hidden; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim .desc { font-size: 12px; line-height: 20px; color: #555; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim .price { height: 28px; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim .price .new { font-size: 16px; font-weight: bold; line-height: 20px; color: #fa4b9b; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim .price .old { font-size: 12px; color: #999; text-decoration: line-through; }
+
+.Nmain .container .tuijian .tuijian_goods ul li .rim .buy { font-size: 12px; color: #666; }
+
+.Nmain .container .temai h3 { font-size: 24px; color: #222; font-weight: bold; margin: 25px 0 20px 0; }
+
+.Nmain .container .temai h3 span { font-size: 18px; color: #999; font-weight: 100; vertical-align: -1px; margin-left: 18px; }
+
+.Nmain .container .temai .temai_goods ul li { margin-bottom: 15px; padding: 6px; height: 364px; border: 1px solid #e5e5e5; background-color: #fff; }
+
+.Nmain .container .temai .temai_goods ul li .bigban { width: 750px; height: 350px; float: left; }
+
+.Nmain .container .temai .temai_goods ul li .bigban img { display: block; width: 750px; height: 350px; }
+
+.Nmain .container .temai .temai_goods ul li .rank { float: right; padding: 0 13px; overflow: hidden; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r { width: 306px; height: 117px; padding: 18px 15px; border-top: 1px dashed #c4c4c4; margin-top: -1px; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .gds_img { float: left; margin-right: 12px; width: 78px; height: 78px; border: 1px solid #efefef; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .gds_img img { display: block; width: 76px; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .content { width: 184px; float: left; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .content p { width: 184px; height: 38px; line-height: 18px; margin-top: 5px; font-size: 12px; color: #666; overflow: hidden; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .content .price { margin-top: 5px; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .content .price .new { margin-right: 5px; font-size: 18px; color: #fa4b9b; }
+
+.Nmain .container .temai .temai_goods ul li .rank .rank_r .content .price .old { font-size: 12px; text-decoration: line-through; color: #999; }

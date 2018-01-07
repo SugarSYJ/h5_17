@@ -1,0 +1,256 @@
+.Nheader{
+    .Nheader_t{
+        font-size:12px;
+        line-height: 29px;
+        border-bottom:1px solid #e5e5e5;
+        background: #f2f2f2;
+        i{
+            color:#fa4b9b;
+        }
+        .Nheader_t_r{
+            float:right;
+            span{
+                float:left;
+                color:#666;
+                padding: 0 10px;
+            }
+            a{
+                float:left;
+                padding: 0 10px;
+            }
+        }
+    }
+    .mainHeader{
+        .container{
+            width: 1000px;
+            height: 138px;
+            font-size:12px;
+            a{
+                display:block;
+                width: 130px;
+                height: 110px;
+                float:left;
+                background: url('../images/logo.png') no-repeat;
+            }
+            ul{
+                margin-top: 30px;
+                background:url('../images/cart_stet.png') no-repeat;
+                float:right;
+                li{
+                    width: 144px;
+                    height: 42px;
+                    line-height: 42px;
+                    text-align:center;
+                    float:left;
+                }
+            }
+        }
+    }
+}
+.Nmain{
+    .container{
+        width: 1000px;
+        font-size:12px;
+        color:#666;
+        .list{
+            .c_title{
+                border-bottom: 2px solid #eaeaea;
+                border-top: none;
+                padding: 10px 0px;
+                margin-left: 10px;
+                margin-right: 10px;
+                span{
+                    border-bottom: 2px solid #fa4b9b;
+                    padding-bottom: 10px;
+                    font-size: 24px;
+                    padding-right: 10px;
+                    color: #333;
+                }
+            }
+            .c_menu{
+                padding: 15px;
+                .ci{
+                    padding: 2px 0;
+                    float:left;
+                    width: 113px;
+                    text-align:center;
+                    height: 26px;
+                    line-height: 26px;
+                    border-left: 1px solid #ddd;
+                }
+                .ci1{
+                    width: 87px;
+                    text-align:left;
+                    margin-left: 20px;
+                    border-left:0 none;
+                    .all{
+                        display:block;
+                        width: 17px;
+                        height: 17px;
+                        float:left;
+                        margin-top: 3px;
+                    }
+                }
+                .ci2{
+                    width: 280px;
+                    border-left:0 none;
+                }
+            }
+            .c_list{
+                padding: 0 15px;
+                .cl_con{
+                    border: 1px solid #ededed;
+                    .cl_tit{
+                        width: 968px;
+                        line-height: 30px;
+                        font-size:18px;
+                        color:#333;
+                        padding: 14px 26px;
+                        background: #fafafa;
+                    }
+                    .car_list{
+                        padding: 12px 0 12px 14px;
+                        overflow: hidden;
+                        .btn_c{
+                            display:block;
+                            width: 17px;
+                            height: 17px;
+                            margin-top: 30px;
+                            float:left;
+                        }
+                        .it_img{
+                            display:block;
+                            width: 77px;
+                            height: 77px;
+                            border: 1px solid #ddd;
+                            margin: 0 16px 0 16px;
+                            float:left;
+                        }
+                        .it_des{
+                            width: 240px;
+                            line-height: 16px;
+                            float:left;
+                            .goodname{
+                                color: #666;
+                            }
+                            .goods_select{
+                                line-height: 26px;
+                                color: #adadad;
+                            }
+                        }
+                        .it_size{
+                            width: 115px;
+                            height: 1px;
+                            float:left;
+                        }
+                        .it_price{
+                            width: 115px;
+                            float:left;
+                            text-align:center;
+                            .old{
+                                margin-top: 10px;
+                                color: #999;
+                                text-decoration: line-through;
+                            }
+                        }
+                        .it_num{
+                            height: 28px;
+                            border: 1px solid #ccc;
+                            text-align:center;
+                            margin: 4px 14px 0 25px;
+                            float:left;
+                            span{
+                                display:block;
+                                width: 24px;
+                                line-height: 24px;
+                                float:left;
+                            }
+                            .c{
+                                border-left: 1px solid #ccc;
+                                border-right: 1px solid #ccc;
+                                width: 28px;
+                            }
+                        }
+                        .it_total{
+                            width: 115px;
+                            text-align: center;
+                            margin-top: 3px;
+                            color: #ff69b4;
+                            float:left;
+                        }
+                        .delete{
+                            color:#666;
+                            margin: 6px 0 0 42px;
+                            float:left;
+                        }
+                    }
+                }
+            }
+            .c_countn{
+                border: 1px solid #ddd;
+                border-right: none;
+                line-height: 58px;
+                margin: 50px 15px 20px;
+                overflow: hidden;
+                .l{
+                    float:left;
+                    .all{
+                        display:block;
+                        width: 17px;
+                        height: 17px;
+                        float:left;
+                        margin: 20px 10px 0 18px;
+                    }
+                    label{
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding-right: 15px;
+                    }
+                    a{
+                        padding-left: 5px;
+                        color:#666;
+                    }
+                }
+                .ze{
+                    color: #333;
+                    font-weight: 700;
+                    float:left;
+                    margin-left: 160px;
+                    .shu{
+                        font-size: 18px;
+                        color: #fa4b9b;
+                    }
+                }
+                .btnJieSuan{
+                    float:right;
+                    text-align: center;
+                    color: #fff;
+                    background-color: #fa4b9b;
+                    border: 1px solid #fa4b9b;
+                    line-height: 58px;
+                    margin-top: 0;
+                    padding: 0 19px;
+                    font-size: 19.5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .empty{
+            padding: 80px 50px;
+            background: url(../images/empty_icon.jpg) no-repeat 120px 75px;
+            padding-left: 230px;
+            display:none;
+            p{
+                font-size:30px;
+                color:#ccc;
+                padding-bottom: 20px;
+            }
+            div{
+                a{
+                    color:#f450a2;
+                    font-weight:bold;
+                }
+            }
+        }
+    }
+}

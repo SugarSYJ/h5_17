@@ -1,0 +1,200 @@
+.Nmain{
+    font-size:12px;
+    background: #f2f2f0;
+    padding: 20px 20px 0;
+    .container{
+        .screening{
+            width: 1072px;
+            height: 163px;
+            color:#666;
+            padding: 0 14px;
+            background: #fff;
+            .selector{
+                line-height: 24px;
+                overflow: hidden;
+                padding: 8px 0;
+                position: relative;
+                border-bottom: 1px dashed #ececec;
+                .key{
+                    float:left;
+                    width: 87px;
+                    padding-right: 14px;
+                    text-align:right;
+                    color: #999;
+                }
+                .contenter{
+                    float:left;
+                    width: 955px;
+                    height: 24px;
+                    line-height: 24px;
+                    padding-right: 60px;
+                    overflow: hidden;
+                    .smore{
+                        width: 50px;
+                        height: 24px;
+                        line-height: 24px;
+                        position: absolute;
+                        right: 0;
+                    }
+                    .kcon{
+                        float:left;
+                        margin-right: 5px;
+                        padding: 0 20px 0 10px;
+                        color: #222;
+                        a{
+                            display:block;
+                            width: 155px;
+                            float:left;
+                            margin-right: 5px;
+                            padding: 0 10px 0 10px;
+                            color: #222;
+                        }
+                    }
+                    .kcon1{
+                        a{
+                            width: 57px;
+                        }
+                    }
+                    .kcon2{
+                        a{
+                            width: 73px;
+                            padding: 0 0 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .reputation{
+            padding-top: 10px;
+            .bmtitle{
+                height: 44px;
+                width: 1074px;
+                padding: 0 19px 0 0;
+                line-height: 33px;
+                font-size: 14px;
+                background: #fff;
+                .fl{
+                    span{
+                        display:block;
+                        height: 44px;
+                        line-height: 44px;
+                        padding: 0 25px;
+                        border-right: 1px solid #ededed;
+                        background: #fff;
+                        margin-right: 0;
+                        float:left;
+                        overflow: hidden;
+                        .inner{
+                            input{
+                                width: 52px;
+                                height: 23px;
+                                outline:none;
+                                padding: 0 4px;
+                                border: 1px solid #B1B1B1;
+                            }
+                        }
+                        .btn{
+                            cursor: pointer;
+                            background-color: #F84D9C;
+                            color: #fff;
+                            height: 23px;
+                            width: 50px;
+                            border-radius: 2px;
+                            -webkit-border-radius: 2px;
+                            border: none;
+                            margin-left: 5px;
+                        }
+                    }
+                    label{
+                        width: 141px;
+                        height: 44px;
+                        line-height: 44px;
+                        border: none;
+                        background: #fff;
+                        margin-left: 35px;
+                        float:left;
+                        input{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .fr{
+                    width: 120px;
+                    height: 44px;
+                    line-height: 44px;
+                }
+            }
+        }
+        .goodslist{
+            ul{
+                overflow: hidden;
+                margin-top: 14px;
+                li{
+                    margin: 0 10px 14px 0;
+                    float:left;
+                    background: #fff;
+                    img{
+                        width: 265px;
+                        height: 265px;
+                    }
+                    .bmfo{
+                        width: 265px;
+                        padding: 6px 10px 0 10px;
+                        .price{
+                            height: 30px;
+                            .new{
+                                font-size:20px;
+                                font-weight:bold;
+                                color: #f450a2;
+                                line-height: 30px;
+                                float:left;
+                            }
+                            .old{
+                                margin: 9px 0 0 0;
+                                color:#888;
+                                text-decoration: line-through;
+                                float:right;
+                            }
+                        }
+                        .tit{
+                            line-height: 22px;
+                            height: 22px;
+                            font-size:14px;
+                            color:#666;
+                            margin-top: 5px;
+                            overflow: hidden;
+                        }
+                        .desc{
+                            color: #fa4b9b;
+                            margin-top: 8px;
+                            margin-bottom: 20px;
+                            span{
+                                color: #fff;
+                                background: #fa4b9b;
+                                padding: 0 2px 2px 2px;
+                                margin-right: 7px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .page{
+            margin-bottom: 8px;
+            text-align:center;
+            span{
+                display:inline-block;
+                margin:5px;
+                width:40px;
+                line-height:1.8;
+                text-align: center;
+                background-color:#fff;
+                color:#666;
+                &.active{
+                    background-color:#f450a2;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}

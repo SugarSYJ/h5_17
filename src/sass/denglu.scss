@@ -1,0 +1,177 @@
+.container{
+    height: 577px;
+    padding-top: 75px;
+    margin-top: 20px;
+    position:relative;
+    .logo{
+        background: url('../images/logo.png') no-repeat;
+        display:block;
+        width: 210px;
+        height: 100px;
+        margin-left: 76px;
+        a{
+            display:block;
+            width: 210px;
+            height: 100px;
+            text-indent:-1111px;
+        }
+    }
+    .loginBord{
+        width: 344px;
+        height: 287px;
+        font-size:12px;
+        padding: 0 20px 20px 20px;
+        position:absolute;
+        left:685px;
+        top:92px;
+        box-shadow: 0 0 4px rgba(0,0,0,.075);
+        .loginTit{
+            color: #E31256;
+            height: 60px;
+            line-height: 60px;
+            margin-bottom: 13px;
+            .left{
+                font-size:20px;
+                color: #f450a2;
+            }
+            .right{
+                font-size:12px;
+                i{
+                    color: #f450a2;
+                }
+                a{
+                    color:#666;
+                }
+            }
+        }
+        form{
+            .inputWrap{
+                width: 304px;
+                height: 39px;
+                margin-bottom:20px;
+                background-color: #FFF;
+                border: 1px solid #CFCFCF;
+                box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                .user-icon{
+                    display: block;
+                    width: 38px;
+                    height: 22px;
+                    margin-top: 6px;
+                    background:url('../images/sign.png') no-repeat -37px -10px;
+                    float:left;
+                } 
+                .num{
+                    width: 264px;
+                    height: 37px;
+                    border:0 none;
+                    outline: 0 none;
+                }
+            }
+            .inputGroup{
+                width: 304px;
+                height: 39px;
+                .code{
+                    width: 150px;
+                    height: 39px;
+                    vertical-align: 0;
+                    outline: 0 none;
+                    border: 1px solid #CFCFCF;
+                    box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                }
+                .huoqu{
+                    width: 150px;
+                    height: 39px;
+                    border: 1px solid #CFCFCF;
+                    box-shadow: 0 0 2px 1px rgba(207,207,207,.4) inset;
+                }
+            }
+            .btnCheck{
+                width: 280px;
+                height: 40px;
+                color:#fff;
+                font-size:18px;
+                background: #F450A2;
+                margin-top:20px;
+                margin-bottom:15px;
+            }
+        }
+    }
+    .news{
+        width: 344px;
+        height: 287px;
+        position:absolute;
+        left:200px;
+        top:180px;
+        background:-webkit-radial-gradient(50% 50%,#FFDFF0 30%,#fff 85%);
+        p{
+            font-size:30px;
+            color:#f450a2;
+            padding: 10px 0;
+            text-align:center;
+        }
+        .bg{
+            width: 320px;
+            height: 30px;
+            border-radius:5px/5px;
+            background: #f450a2;
+            padding: 2px 0;
+            margin-bottom:20px;
+            .xb{
+                width: 300px;
+                height: 26px;
+                color:#fff;
+                text-align:center;
+                border:1px dotted #fff;
+                border-radius:10px/10px;
+                margin: 0 auto;
+
+            }
+        }
+        .erwei{
+            width: 80px;
+            height: 80px;
+            padding: 8px;
+            background: #f450a2;
+            float:left;
+            margin-left:30px;
+            margin-top: 18px;
+            img{
+                width: 65px;
+                height: 65px;
+
+            }
+        }
+        .box{
+            width: 100px;
+            height: 70px;
+            float:left;
+            margin-top: 18px;
+            margin-left:15px;
+            a{
+                display:block;
+                width: 100px;
+                line-height: 30px;
+                font-size:14px;
+                color:#f450a2;
+                text-align:center;
+                background: #fff;
+                border-radius:15px/15px;
+                margin-bottom:15px;
+            }
+        }
+        .img{
+            width: 64px;
+            height: 105px;
+            float:right;
+            margin-right:37px;
+            background:url('../images/pink.png') no-repeat;
+        }
+    }
+}
+.foot{
+    font-size:12px;
+    line-height: 22px;
+    color:#ccc;
+    padding: 30px;
+    text-align:center;
+}
