@@ -49,7 +49,7 @@
                         // 跳转页面
                         location.href = '../html/xiangqingye.html' + encodeURI(params);
                         //弹窗
-                        alert(params);
+                        // alert(params);
                     }
                 })
             });
