@@ -6,7 +6,7 @@
     var $page = $('.page');
     var pageNo = 1;
     var qty = 40;
-    $.post('../api/liebiaoye.php',{pageNo:pageNo,qty:qty},function(data){
+    $.post('../mysql/list.php',{pageNo:pageNo,qty:qty},function(data){
         function arr(data){
             var _data = data;
             // console.log(_data);
@@ -67,7 +67,7 @@
         $page.on('click','span',function(){
             span = pageNo = this.innerText*1;
             // console.log(span);
-            $.post('../api/liebiaoye.php',{pageNo:span,qty:qty},function(data){
+            $.post('../mysql/list.php',{pageNo:span,qty:qty},function(data){
                 arr(data);
             },"json");
         });
